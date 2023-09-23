@@ -1,6 +1,6 @@
 # Google-Data-Analytics-Capstone-Project-Coursera
 
-
+Course: [Google Data Analytics Professional Ceritifcate](https://www.coursera.org/professional-certificates/google-data-analytics)
 
 
 --  ![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/0ddd0433-b32f-418f-b69b-5862287dd93d)
