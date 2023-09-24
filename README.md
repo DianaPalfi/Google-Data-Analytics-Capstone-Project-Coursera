@@ -71,7 +71,7 @@ As ride_id is our primary key we need to check if the total number of ride_id is
 
 
 
-<img src="https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/0ddd0433-b32f-418f-b69b-5862287dd93d.png" width="500" height="100">
+
 
 ```
 SELECT COUNT(ride_id) AS total_rides,
