@@ -58,6 +58,7 @@ Cyclistic's data is stored in multiple CSV files and the column names in each cv
 Cyclistic trip data will be processed in BigQuery due to the size of the CSV files it is easier to manipulate the data in a SQL query.
 
 _Data merge_
+
 The first step is to merge all the data from 12 CSV files into a single table which will be named 'trip_combined_data' located in the dataset 'capstoneproject'.
 
 _Data exploration_
