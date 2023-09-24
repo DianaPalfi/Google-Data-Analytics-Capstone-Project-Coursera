@@ -43,7 +43,7 @@ Cyclistic's data is stored in multiple CSV files and the column names in each cv
 <img src="https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/85c3bf1f-d6eb-4be2-b35e-50c92f976113" width="300" height="300">
 
 | column_name	| data_type |
---------------------------
+|-------------|-----------|
 | ride_id	| STRING |
 | rideable_type	| STRING |
 | started_at	| TIMESTAMP |
