@@ -47,17 +47,17 @@ Cyclistic's data is stored in multiple CSV files and the column names in each cv
 | ride_id	| STRING |
 | rideable_type	| STRING |
 | started_at	| TIMESTAMP |
-ended_at	TIMESTAMP
-start_station_name	STRING
-start_station_id	STRING
-end_station_name	STRING
-end_station_id	STRING
-start_lat	FLOAT64
-start_lng	FLOAT64
-end_lat	FLOAT64
-end_lng	FLOAT64
-member_casual	STRING
-
+| ended_at	| TIMESTAMP |
+| start_station_name	| STRING |
+| start_station_id	| STRING |
+| end_station_name	| STRING |
+| end_station_id	| STRING |
+| start_lat	| FLOAT64 |
+| start_lng	| FLOAT64 |
+| end_lat	| FLOAT64 |
+| end_lng	| FLOAT64 |
+| member_casual |	STRING |
+ 
 
 ![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/ec4a584a-362c-49e4-9f8f-79684c204fa5)
 
