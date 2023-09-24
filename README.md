@@ -57,7 +57,7 @@ member_casual	STRING
 
 ![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/85c3bf1f-d6eb-4be2-b35e-50c92f976113)
 
-<img src="[https://your-image-url.type](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/85c3bf1f-d6eb-4be2-b35e-50c92f976113)" width="250" height="250">
+<img src="https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/85c3bf1f-d6eb-4be2-b35e-50c92f976113" width="250" height="250">
 
 
 ***
