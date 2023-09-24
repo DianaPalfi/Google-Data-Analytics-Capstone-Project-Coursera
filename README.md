@@ -41,7 +41,7 @@ To fulfill this analysis, I downloaded the historical trip data to analyze from 
 Cyclistic's data is stored in CSV files and the column names in each cvs file are the same:
 
 
- ![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/e461df05-4c1c-493d-b844-a3004be8657d.png| width=100)
+ ![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/e461df05-4c1c-493d-b844-a3004be8657d.png|width=100)
 
 
 
