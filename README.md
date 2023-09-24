@@ -35,7 +35,10 @@ I used Cyclistic’s historical trip data to analyze and identify trends, which 
 [license](https://divvybikes.com/data-license-agreement). The data needed for this analysis can be downloaded from [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html). This is public data that you can use to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
 To fulfill this analysis, I downloaded the historical trip data to analyze from August 2021 to July 2022.
 
-Data is stored in CSV files and in order to merge 
+Cyclistic's data is stored in CSV files and the column names in each cvs file are the same:
+
+![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/e461df05-4c1c-493d-b844-a3004be8657d)
+
 
 
 
