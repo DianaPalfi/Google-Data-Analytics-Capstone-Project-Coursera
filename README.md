@@ -28,7 +28,6 @@ Three questions will guide the future marketing program:
 Moreno has assigned me the first question to answer: _How do annual members and casual riders use Cyclistic bikes differently?_
 
 ***
-
 ### Prepare
 
 I used Cyclistic’s historical trip data to analyze and identify trends, which were mage available by by Motivate International Inc. under this
@@ -54,7 +53,6 @@ Cyclistic's data is stored in multiple CSV files and the column names in each cv
 | member_casual |	STRING |
  
 ***
-
 ### Process
 
 Cyclistic trip data will be processed in BigQuery due to the size of the CSV files it is easier to manipulate the data in a SQL query.
@@ -62,10 +60,13 @@ Cyclistic trip data will be processed in BigQuery due to the size of the CSV fil
 _Data merge_
 The first step is to merge all the data from 12 CSV files into a single table which will be named 'trip_combined_data' located in the dataset 'capstoneproject'.
 
-Data 
+_Data exploration_
+> 1. Duplicate check
 
-
-
+As ride_id is our primary key we need to check if the total number of ride_id is the same with unique ride_ids in the new merged table 'trip_combined_data'
+| total_rides	| total_unique_rides |
+|-------------|-----------|
+|5901463 | 5901463 |
 
 
 
