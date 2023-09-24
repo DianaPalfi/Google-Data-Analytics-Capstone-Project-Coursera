@@ -18,9 +18,9 @@ The company was founded in 2016 in Chicago and since then Cyclistic has grown to
 
 The director of marketing, Lily Moreno, wants to design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, the marketing analyst team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
 
-**
 
-****Ask****
+
+##Ask
 
 Three questions will guide the future marketing program:
 
