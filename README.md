@@ -20,7 +20,7 @@ The director of marketing, Lily Moreno, wants to design marketing strategies aim
 
 ***
 
-**Ask**
+****Ask****
 
 Three questions will guide the future marketing program:
 
@@ -32,18 +32,55 @@ Moreno has assigned me the first question to answer: _How do annual members and 
 
 ***
 
-**Prepare**
+****Prepare****
 
 I used Cyclistic’s historical trip data to analyze and identify trends, which were mage available by by Motivate International Inc. under this
 [license](https://divvybikes.com/data-license-agreement). The data needed for this analysis can be downloaded from [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html). This is public data that you can use to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
 To fulfill this analysis, I downloaded the historical trip data to analyze from August 2021 to July 2022.
 
-Cyclistic's data is stored in CSV files and the column names in each cvs file are the same:
+Cyclistic's data is stored in multiple CSV files and the column names in each cvs file are the same:
 
 <img src="https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/85c3bf1f-d6eb-4be2-b35e-50c92f976113" width="300" height="300">
 
+| column_name	| data_type |
+| ride_id	| STRING |
+| rideable_type	| STRING |
+| started_at	| TIMESTAMP |
+ended_at	TIMESTAMP
+start_station_name	STRING
+start_station_id	STRING
+end_station_name	STRING
+end_station_id	STRING
+start_lat	FLOAT64
+start_lng	FLOAT64
+end_lat	FLOAT64
+end_lng	FLOAT64
+member_casual	STRING
+![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/ec4a584a-362c-49e4-9f8f-79684c204fa5)
+
+
+
+
+
+
+
+
+
 
 ***
+
+****Process****
+
+Cyclistic trip data will be processed in BigQuery due to the size of the CSV files it is easier to manipulate the data in a SQL query.
+
+_Data merge_
+The first step is to merge all the data from 12 CSV files into a single table which will be named 'trip_combined_data' located in the dataset 'capstoneproject'.
+
+Data 
+
+
+
+
 
 
 
