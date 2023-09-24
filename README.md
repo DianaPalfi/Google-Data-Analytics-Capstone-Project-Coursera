@@ -32,7 +32,7 @@ Moreno has assigned me the first question to answer: _How do annual members and 
 
 ***
 
-****Prepare****
+### Prepare
 
 I used Cyclistic’s historical trip data to analyze and identify trends, which were mage available by by Motivate International Inc. under this
 [license](https://divvybikes.com/data-license-agreement). The data needed for this analysis can be downloaded from [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html). This is public data that you can use to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
@@ -58,7 +58,7 @@ Cyclistic's data is stored in multiple CSV files and the column names in each cv
  
 ***
 
-****Process****
+### Process
 
 Cyclistic trip data will be processed in BigQuery due to the size of the CSV files it is easier to manipulate the data in a SQL query.
 
