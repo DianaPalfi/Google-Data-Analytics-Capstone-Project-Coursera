@@ -40,22 +40,6 @@ To fulfill this analysis, I downloaded the historical trip data to analyze from 
 
 Cyclistic's data is stored in CSV files and the column names in each cvs file are the same:
 
-column_name	data_type
-ride_id	STRING
-rideable_type	STRING
-started_at	TIMESTAMP
-ended_at	TIMESTAMP
-start_station_name	STRING
-start_station_id	STRING
-end_station_name	STRING
-end_station_id	STRING
-start_lat	FLOAT64
-start_lng	FLOAT64
-end_lat	FLOAT64
-end_lng	FLOAT64
-member_casual	STRING
-
-
 <img src="https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/85c3bf1f-d6eb-4be2-b35e-50c92f976113" width="300" height="300">
 
 
