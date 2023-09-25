@@ -72,8 +72,9 @@ As ride_id is our primary key we need to check if the total number of ride_id is
 
 
 
-
-
+| min_ride_length	| max_ride_length | average_ride_length |
+|-----------------|-----------------|---------------------|
+| 0-0 0 -2:17:25 | 0-0 0 693:49:10 | 0-0 0 0:19:53.37|
 ```
 SELECT COUNT(ride_id) AS total_rides,
        COUNT (DISTINCT ride_id) AS total_unique_rides
