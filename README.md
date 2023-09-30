@@ -64,24 +64,39 @@ The first step is to merge all the data from 12 CSV files into a single table wh
 _Data exploration_
 > 1. Duplicate check
 
-As ride_id is our primary key we need to check if the total number of ride_id is the same with unique ride_ids in the new merged table 'trip_combined_data'
+As ride_id is our primary key we need to check if the total number of ride_id is the same with unique ride_ids in the new merged table 'trip_combined_data', which means that there are no duplicate values.
 | total_rides	| total_unique_rides |
 |-------------|-----------|
 |5901463 | 5901463 |
 
+>2. Check null values
 
+Not all rows are populated with data, which led me to checkhow many columns have missing data. I checeked ride_id, start_station_name, end_station_name, start_station_id, end_station_id, and found out the following:
+-  start_station_name or start_station_id have 860,786 null rows
+-  end_station_name or end_station_id have 919,896 null rows
 
+>3. Check min/max/average ride length data
+
+In order to undertand better the data that we have, i checked min, max and average data of the ride length.
 
 | min_ride_length	| max_ride_length | average_ride_length |
 |-----------------|-----------------|---------------------|
 | 0-0 0 -2:17:25 | 0-0 0 693:49:10 | 0-0 0 0:19:53.37|
 
+>4.Check number of rides by member trips.
 
 | member_casual | member_trips |
 |---------------|--------------|
-| casual | 2522226 |
-| member | 3379237 |
+| casual | 2,522,226 |
+| member | 3,379,237 |
 
+>5.Check number of trips per rideable type
+
+| rideable_type | no_of_trips |
+|---------------|--------------|
+| electric_bike | 2,619,094 |
+| classic_bike | 3,055,641 |
+| docked_bike | 226,728 |
 
 
 ```
