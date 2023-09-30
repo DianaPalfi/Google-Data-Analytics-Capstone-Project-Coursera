@@ -59,7 +59,16 @@ Cyclistic trip data will be processed in BigQuery due to the size of the CSV fil
 
 _Data merge_
 
-The first step is to merge all the data from 12 CSV files into a single table which will be named 'trip_combined_data' located in the dataset 'capstoneproject'.
+The first step is to merge all the data from 12 CSV files into a single table which will be named 'trip_combined_data' located in the dataset 'capstoneproject'. I also added another column 'ride_lenth' to calculate the length of each ride.
+
+```
+ALTER TABLE  `capstoneproject.trip_combined_data`
+ADD COLUMN ride_length INTERVAL;
+
+UPDATE `capstoneproject.trip_combined_data`
+SET ride_length = (ended_at - started_at) 
+WHERE ride_id IS NOT NULL;
+```
 
 _Data exploration_
 > 1. Duplicate check
@@ -90,7 +99,7 @@ In order to undertand better the data that we have, i checked min, max and avera
 | casual | 2,522,226 |
 | member | 3,379,237 |
 
->5.Check number of trips per rideable type
+>5.Check number of trips per rideable type both for member and casual members.
 
 | rideable_type | no_of_trips |
 |---------------|--------------|
@@ -99,8 +108,11 @@ In order to undertand better the data that we have, i checked min, max and avera
 | docked_bike | 226,728 |
 
 
-```
-SELECT COUNT(ride_id) AS total_rides,
-       COUNT (DISTINCT ride_id) AS total_unique_rides
-FROM `capstoneproject.trip_combined_data`;
-```
+>6. Check types of rides for **casual** members
+| rideable_type | no_ride_trips |
+|---------------|--------------|
+| electric_bike | 1,162,606 |
+| classic_bike | 1,132,892 |
+| docked_bike | 226,728 |
+
+
