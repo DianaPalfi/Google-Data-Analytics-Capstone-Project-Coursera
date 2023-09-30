@@ -109,6 +109,7 @@ In order to undertand better the data that we have, i checked min, max and avera
 
 
 >6. Check types of rides for **casual** members
+
 | rideable_type | no_ride_trips |
 |---------------|--------------|
 | electric_bike | 1,162,606 |
