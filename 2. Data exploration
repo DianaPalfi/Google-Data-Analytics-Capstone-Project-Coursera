@@ -1,9 +1,1 @@
---check data format
-SELECT column_name, data_type
-FROM `capstoneproject.trip_combined_data`.INFORMATION_SCHEMA.COLUMNS
-WHERE table_name = 'trip_combined_data';
 
---check duplicate values for primary key column, ride_id. -> there are no duplicate values for ride_id as the number of ride_id = total_unique_rides (5901463)
-SELECT COUNT(ride_id) AS total_rides,
-       COUNT (DISTINCT ride_id) AS total_unique_rides
-FROM `capstoneproject.trip_combined_data`;
