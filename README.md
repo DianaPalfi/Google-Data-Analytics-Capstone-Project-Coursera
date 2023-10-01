@@ -116,4 +116,11 @@ In order to undertand better the data that we have, i checked min, max and avera
 | classic_bike | 1,132,892 |
 | docked_bike | 226,728 |
 
+_Data cleaning_
+- create a new table with the cleaned data 'cleaned_trip_combined_data'
+- add columns and data types for these columns
+- import the data into the newly created table
+- extract the month and day of the week
+- delete the empty rows from the following columns: start_station_name, end_station_name, end_lat, end_lng
+- exclude trips which lasted less than 1 minute and longer than a day
 
