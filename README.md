@@ -70,6 +70,7 @@ SET ride_length = (ended_at - started_at)
 WHERE ride_id IS NOT NULL;
 ```
 
+### Analyze
 _Data exploration_
 > 1. Duplicate check
 
@@ -124,3 +125,9 @@ _Data cleaning_
 - delete the empty rows from the following columns: start_station_name, end_station_name, end_lat, end_lng
 - exclude trips which lasted less than 1 minute and longer than a day
 
+### Share
+
+
+
+
+### Act
