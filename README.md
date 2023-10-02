@@ -122,7 +122,7 @@ _Data cleaning_
 - add columns and data types for these columns
 - import the data into the newly created table
 - extract the month and day of the week
-- delete the empty rows from the following columns: start_station_name, end_station_name, end_lat, end_lng
+- delete the empty rows from the following columns: start_station_name, end_station_name, end_lat, end_lng --> 1,342,578 rows were deleted
 - exclude trips which lasted less than 1 minute and longer than a day
 
 ### Share
