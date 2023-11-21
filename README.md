@@ -128,6 +128,8 @@ _Data cleaning_
 ### Share
 
 
+![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/123c25a6-c548-4608-918e-ae5d6d879e48)
+
 
 
 ### Act
