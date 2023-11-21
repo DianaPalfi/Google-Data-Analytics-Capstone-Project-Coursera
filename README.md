@@ -126,10 +126,15 @@ _Data cleaning_
 - exclude trips which lasted less than 1 minute and longer than a day
 
 ### Share
-
+Big Query: Data analysis[4. Data analysis.sql]
+Data Vizualization: 
+After the data was cleaned I uploaded the downloaded csv file from Big Query to Tableau and created visualization to help me understand the data from the two member types: casual and member. 
+I created line charts in order to see the pattern per month and per week. 
+![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/442bdbe6-aafd-4377-8bf7-d07b5ff8129f)
+**Monthly**: Members display a higher number of trips every single month of the year with the exception of August when casual members show a slight growth in the number of trips. Both member types casual and members show a growth in the total number of trips from May to October.
 
 ![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/123c25a6-c548-4608-918e-ae5d6d879e48)
-
+**Weekly**: 
 
 
 ### Act
