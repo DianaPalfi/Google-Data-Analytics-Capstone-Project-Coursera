@@ -126,15 +126,44 @@ _Data cleaning_
 - exclude trips which lasted less than 1 minute and longer than a day
 
 ### Share
-Big Query: Data analysis[4. Data analysis.sql]
+Big Query: 4. Data analysis.sql
 Data Vizualization: 
-After the data was cleaned I uploaded the downloaded csv file from Big Query to Tableau and created visualization to help me understand the data from the two member types: casual and member. 
-I created line charts in order to see the pattern per month and per week. 
+After the data was cleaned I uploaded the downloaded csv file from Big Query to Tableau and created visualizations to help me understand the data for the two member types: casual and member. 
+I created line charts in order to see the pattern of trips per month and per week. 
+
+**Monthly**: Members display a higher number of trips every single month of the year with the exception of August when casual members show a slight growth in the number of trips. Both member types  show a growth in the total number of trips from May to October.
 ![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/442bdbe6-aafd-4377-8bf7-d07b5ff8129f)
-**Monthly**: Members display a higher number of trips every single month of the year with the exception of August when casual members show a slight growth in the number of trips. Both member types casual and members show a growth in the total number of trips from May to October.
 
+**Weekly**: Comparing the trips by days of week, casual riders take more trips during the weekend than member riders, while members have more trips from Monday to Friday.
 ![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/123c25a6-c548-4608-918e-ae5d6d879e48)
-**Weekly**: 
 
+From this data we can assume that casual riders use bikes for leaisure during the weekends and mostly during summer months, while members use bikes to commute during the week. Both member types display the same pattern, as they use bikes more during warmer months, more specifically from April to October.
+
+**Average trips**
+Average trips per month: The casual member average bike ride per month ranges from 18 min 25 sec to 27 min 99 sec while members average cycling time is much lower from 10 min 41 sec to 13 min 93 sec. 
+![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/9b88083c-707f-4f65-85ca-db4dee25025b)
+
+Avreage trips per week: Member rider average time does not change much during the week , while casual members ride bikes twice as much, with a visible increase during the weekends.
+![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/5f7009dc-34bc-4536-afe9-27b8e274545c)
+
+**Start stations**
+Members started their trips from stations close to university, reasidential areas, schools, banks while casual riders frequently started their trips nearby museums and parks.
+![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/5ac6f3a2-4fa2-4ffc-adbb-47e77adc5f5c)
+
+
+**End stations**
+The same pattern can be observed for end stations locations for borh member types.
+![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/1a0c9fd1-e667-4892-9993-de8347ca550e)
+
+
+**Top 10 Start / End stations**
+![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/4f9d144a-de6f-495a-b730-cfb43506650e)
+![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/34cef82e-9142-4c80-9022-160170215057)
+The top 10 stations start and end stations are mostly the same, displaying a difference in the number of rides these stations had.
 
 ### Act
+As a conlusion of the analysis it was observed that members use the bike to commute during the week and casual riders use the bike service for leisure mostly during the weekend. In order to incentivize casual riders to become member the following targeted marketing campaign is proposed:
+
+ - give discounts for casual riders for week days to encourage bike usage for commuting to work/school
+ - use push notifications during lean periods of the day
+ - tarsget on ground marketing campaigns at points of leisure
