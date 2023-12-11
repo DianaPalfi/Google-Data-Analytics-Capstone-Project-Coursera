@@ -140,6 +140,7 @@ I created line charts in order to see the pattern of trips per month and per wee
 From this data we can assume that casual riders use bikes for leaisure during the weekends and mostly during summer months, while members use bikes to commute during the week. Both member types display the same pattern, as they use bikes more during warmer months, more specifically from April to October.
 
 **Average trips**
+
 Average trips per month: The casual member average bike ride per month ranges from 18 min 25 sec to 27 min 99 sec while members average cycling time is much lower from 10 min 41 sec to 13 min 93 sec. 
 ![image](https://github.com/DianaPalfi/Google-Data-Analytics-Capstone-Project-Coursera/assets/145564660/9b88083c-707f-4f65-85ca-db4dee25025b)
 
