@@ -167,4 +167,4 @@ As a conlusion of the analysis it was observed that members use the bike to comm
 
  - give discounts for casual riders for week days to encourage bike usage for commuting to work/school
  - use push notifications during lean periods of the day
- - tarsget on ground marketing campaigns at points of leisure
+ - target on ground marketing campaigns at points of leisure for casual members
